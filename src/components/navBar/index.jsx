@@ -22,8 +22,8 @@ const data = [
     to: "/resume",
   },
   {
-    label: "PORTFOLIO",
-    to: "/portfolio",
+    label: "PROJECTS",
+    to: "/projects",
   },
   {
     label: "CONTACT",
