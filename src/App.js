@@ -3,7 +3,7 @@ import {Routes, Route} from 'react-router-dom'
 // import Particles from "react-tsparticles";
 // import { loadFull } from 'tsparticles';
 import React from "react";
-import Portfolio from './containers/portfolio';
+import Projects from './containers/projects';
 import Contact from './containers/contact';
 import Home from './containers/home';
 import Skills from './containers/skills';
@@ -27,7 +27,7 @@ function App() {
           <Route path='/about' element={<About/>}/>
           <Route path='/resume' element={<Resume/>}/>
           <Route path='/skills' element={<Skills/>}/>
-          <Route path='/portfolio' element={<Portfolio/>}/>
+          <Route path='/projects' element={<Projects/>}/>
           <Route path='/contact' element={<Contact/>}/>
 
         </Routes>
